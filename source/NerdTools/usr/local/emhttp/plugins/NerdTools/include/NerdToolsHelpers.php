@@ -1,4 +1,6 @@
 <?php
+require_once '/usr/local/emhttp/plugins/NerdTools/include/Config.php';
+
 $plg_path = '/boot/config/plugins/NerdTools/'; // plugin path
 $os_version = strtok(parse_ini_file('/etc/unraid-version')['version'], '.') . '.' . strtok('.');
 
@@ -10,10 +12,6 @@ $pkg_extra_path = "/boot/extra/"; // package path
 if (!is_dir($pkg_extra_path))
     mkdir($pkg_extra_path);
     
-
-$pkg_desc = 'https://raw.githubusercontent.com/UnRAIDES/unRAID-NerdTools/main/packages/packages-desc';
-$pkg_repo = "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/contents/packages/$os_version";
-$pkg_repo = $_SERVER['HTTP_DEVELOP'] ? $pkg_repo = "https://api.github.com/repos/jsavargas/unRAID-NerdTools/contents/packages/$os_version?ref=develop" : $pkg_repo;
 
 $desc_file   = $pkg_path.'packages-desc';
 $repo_file   = $pkg_path.'packages.json';
