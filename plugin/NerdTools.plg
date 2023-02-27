@@ -1,10 +1,10 @@
 <?xml version='1.0' standalone='yes'?>
 
 <!DOCTYPE PLUGIN [
-<!ENTITY name      "NerdTools">
+<!ENTITY name      "NerdTools-Dev">
 <!ENTITY author    "UnRAIDES">
-<!ENTITY version   "2022.11.01">
-<!ENTITY md5       "5cd31bc67b3b3fb0f32e4e8a6c89216c">
+<!ENTITY version   "2023.02.27">
+<!ENTITY md5       "be3eea3416e0d2faf755d9476ee87c29">
 <!ENTITY launch    "Settings/&name;">
 <!ENTITY github    "UnRAIDES/unRAID-&name;">
 <!ENTITY pluginURL "https://raw.githubusercontent.com/&github;/main/plugin/&name;.plg">
