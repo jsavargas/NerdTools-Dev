@@ -3,11 +3,11 @@
 <!DOCTYPE PLUGIN [
 <!ENTITY name      "NerdTools-Dev">
 <!ENTITY author    "UnRAIDES">
-<!ENTITY version   "2023.02.27a">
-<!ENTITY md5       "3ec8669b39cdfcb0b13c19360a29b54c">
+<!ENTITY version   "2023.02.27b">
+<!ENTITY md5       "48325368de57991f4ca4b813bbbafc8b">
 <!ENTITY launch    "Settings/&name;">
 <!ENTITY github    "UnRAIDES/&name;">
-<!ENTITY pluginURL "https://raw.githubusercontent.com/&github;/main/plugin/&name;.plg">
+<!ENTITY pluginURL "https://raw.githubusercontent.com/&github;/main/plugin/&name;-dev.plg">
 <!ENTITY plgPATH   "/boot/config/plugins/&name;">
 <!ENTITY plgNAME   "&name;-&version;-x86_64-1">
 <!ENTITY emhttp    "/usr/local/emhttp/plugins/&name;">
