@@ -1,7 +1,7 @@
 <?xml version='1.0' standalone='yes'?>
 
 <!DOCTYPE PLUGIN [
-<!ENTITY name      "NerdTools-Dev-dev">
+<!ENTITY name      "NerdTools-Dev">
 <!ENTITY author    "UnRAIDES">
 <!ENTITY version   "2023.02.27b">
 <!ENTITY md5       "48325368de57991f4ca4b813bbbafc8b">
