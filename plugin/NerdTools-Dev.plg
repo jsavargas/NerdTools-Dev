@@ -4,7 +4,7 @@
 <!ENTITY name      "NerdTools-Dev">
 <!ENTITY author    "UnRAIDES">
 <!ENTITY version   "2023.02.27">
-<!ENTITY md5       "5ae3d5b954809fd1f0ef6c7ab44f0646">
+<!ENTITY md5       "76b49b3ad4ac9b6d86abbe93f16ed007">
 <!ENTITY launch    "Settings/&name;">
 <!ENTITY github    "UnRAIDES/&name;">
 <!ENTITY pluginURL "https://raw.githubusercontent.com/&github;/main/plugin/&name;.plg">
@@ -145,6 +145,7 @@ rm -f &plgPATH;/&plgNAME;.txz
 removepkg /boot/extra/*_nerdtools.txz 1>/dev/null
 rm -f /boot/exta/*_nerdtools.txz 1>/dev/null
 rm -f /boot/config/plugins/NerdTools 1>/dev/null
+rm -f /boot/config/plugins/NerdTools-Dev 1>/dev/null
 
 echo ""
 echo "-----------------------------------------------------------"
