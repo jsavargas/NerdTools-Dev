@@ -4,7 +4,7 @@
 <!ENTITY name      "NerdTools-Dev">
 <!ENTITY author    "UnRAIDES">
 <!ENTITY version   "2023.02.27">
-<!ENTITY md5       "304c4bf700d9d8a13500b4930d41889a">
+<!ENTITY md5       "a14dcf4b351af5a2d775e34477b709c4">
 <!ENTITY launch    "Settings/&name;">
 <!ENTITY github    "UnRAIDES/&name;">
 <!ENTITY pluginURL "https://raw.githubusercontent.com/&github;/main/plugin/&name;.plg">

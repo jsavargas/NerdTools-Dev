@@ -1,7 +1,7 @@
 <?php
-require_once '/usr/local/emhttp/plugins/NerdTools/include/Config.php';
+require_once '/usr/local/emhttp/plugins/NerdTools-Dev/include/Config.php';
 
-$plg_path = '/boot/config/plugins/NerdTools/'; // plugin path
+$plg_path = '/boot/config/plugins/NerdTools-Dev/'; // plugin path
 $os_version = "6.11";#strtok(parse_ini_file('/etc/unraid-version')['version'], '.') . '.' . strtok('.');
 
 $pkg_path = $plg_path; // package path
