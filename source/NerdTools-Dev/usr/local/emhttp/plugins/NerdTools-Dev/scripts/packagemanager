@@ -48,8 +48,8 @@ $argu = (array_key_exists("u", $args) || array_key_exists("uninstall", $args));
 $argv = (array_key_exists("v", $args) || array_key_exists("verbose", $args));
 $debug = array_key_exists("debug", $args);
 
-require_once '/usr/local/emhttp/plugins/NerdTools/include/NerdToolsHelpers.php';
-require_once '/usr/local/emhttp/plugins/NerdTools/include/DownloadHelpers.php';
+require_once '/usr/local/emhttp/plugins/NerdTools-Dev/include/NerdToolsHelpers.php';
+require_once '/usr/local/emhttp/plugins/NerdTools-Dev/include/DownloadHelpers.php';
 
 /* debug */
 function debug($m){
