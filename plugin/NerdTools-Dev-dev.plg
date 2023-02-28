@@ -13,7 +13,7 @@
 <!ENTITY emhttp    "/usr/local/emhttp/plugins/&name;">
 ]>
 
-<PLUGIN name="&name;" author="&author;" version="&version;" launch="&launch;" pluginURL="&pluginURL;" min="6.11">
+<PLUGIN name="&name;-dev" author="&author;" version="&version;" launch="&launch;" pluginURL="&pluginURL;" min="6.11">
 
 <CHANGES>
 ##&name;
