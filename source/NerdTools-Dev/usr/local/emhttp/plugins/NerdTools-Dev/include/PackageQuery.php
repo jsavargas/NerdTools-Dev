@@ -1,7 +1,7 @@
 <?
-require_once '/usr/local/emhttp/plugins/NerdTools/include/Config.php';
-require_once '/usr/local/emhttp/plugins/NerdTools/include/NerdToolsHelpers.php';
-require_once '/usr/local/emhttp/plugins/NerdTools/include/DownloadHelpers.php';
+require_once '/usr/local/emhttp/plugins/NerdTools-Dev/include/Config.php';
+require_once '/usr/local/emhttp/plugins/NerdTools-Dev/include/NerdToolsHelpers.php';
+require_once '/usr/local/emhttp/plugins/NerdTools-Dev/include/DownloadHelpers.php';
 
 // Only download repo update if the current one is 1 hour old or more
 if (!file_exists($repo_file) || !empty($_GET['force']) || (filemtime($repo_file) < (time() - 3600))) {

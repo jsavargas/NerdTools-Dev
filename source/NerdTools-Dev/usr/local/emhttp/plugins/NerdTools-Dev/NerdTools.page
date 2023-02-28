@@ -1,12 +1,12 @@
+Menu="Utilities"
+Title="NerdTools-Dev"
 Icon="cog"
-Menu="UserPreferences"
-Title="NerdTools"
 Tag="cog"
 ---
-<link type="text/css" rel="stylesheet" href="<?=autov('/plugins/NerdTools/css/tablesorter.css');?>">
-<link type="text/css" rel="stylesheet" href="<?=autov('/plugins/NerdTools/css/tablesorter-'.(($display['theme'] == 'white' || $display['theme'] == 'azure') ? 'white' : 'black').'.css');?>">
+<link type="text/css" rel="stylesheet" href="<?=autov('/plugins/NerdTools-Dev/css/tablesorter.css');?>">
+<link type="text/css" rel="stylesheet" href="<?=autov('/plugins/NerdTools-Dev/css/tablesorter-'.(($display['theme'] == 'white' || $display['theme'] == 'azure') ? 'white' : 'black').'.css');?>">
 <link type="text/css" rel="stylesheet" href="<?=autov('/webGui/styles/jquery.switchbutton.css');?>">
-<link type="text/css" rel="stylesheet" href="<?=autov('/plugins/NerdTools/css/NerdTools.css');?>">
+<link type="text/css" rel="stylesheet" href="<?=autov('/plugins/NerdTools-Dev/css/NerdTools.css');?>">
 <style>
 table.tablesorter tbody tr:nth-child(odd) {
     background-color: #<?=($display['theme'] == 'white' || $display['theme'] == 'azure') ? 'F0F0F0' : '212421';?>;
@@ -17,7 +17,7 @@ table.tablesorter tbody tr:nth-child(even) {
 </style>
 
 <form markdown="1" id="package_form" name="package_settings" method="POST" action="/update.php" target="progressFrame">
-<input type="hidden" id="include" name="#include" value="/plugins/NerdTools/include/ClearConfig.php"/>
+<input type="hidden" id="include" name="#include" value="/plugins/NerdTools-Dev/include/ClearConfig.php"/>
 
 <div class="wrapper">
 <table class="tablesorter hover-highlight" id="tblPackages">
@@ -38,10 +38,10 @@ table.tablesorter tbody tr:nth-child(even) {
 </div>
 <input onclick="packageQuery(1)" value="Check for Updates" type="button"><input class="reset" type="button" title="reset filters" value="Reset Filters">
 : <input id="btnApply" type="button" value="Apply"><input type="button" value="Done" onClick="done()">
-<input type="hidden" name="#file" value="NerdTools/NerdTools.cfg">
+<input type="hidden" name="#file" value="NerdTools-Dev/NerdTools.cfg">
 </form>
 
-<script src="<?=autov('/plugins/NerdTools/js/jquery.tablesorter.combined.min.js');?>"></script>
-<script src="<?=autov('/plugins/NerdTools/js/parser-metric.min.js');?>"></script>
+<script src="<?=autov('/plugins/NerdTools-Dev/js/jquery.tablesorter.combined.min.js');?>"></script>
+<script src="<?=autov('/plugins/NerdTools-Dev/js/parser-metric.min.js');?>"></script>
 <script type="text/javascript" src="<?=autov('/webGui/javascript/jquery.switchbutton.js');?>"></script>
-<script type="text/javascript" src="<?=autov('/plugins/NerdTools/js/jquery.NerdTools.js');?>"></script>
+<script type="text/javascript" src="<?=autov('/plugins/NerdTools-Dev/js/jquery.NerdTools.js');?>"></script>

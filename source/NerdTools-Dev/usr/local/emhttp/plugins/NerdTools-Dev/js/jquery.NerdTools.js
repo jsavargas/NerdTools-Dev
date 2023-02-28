@@ -30,7 +30,7 @@ $(function(){
 //list all available packages in a table
 function packageQuery(force) {
     $('#tblPackages tbody').html("<tr><td colspan='6'><br><i class='fa fa-spinner fa-spin icon'></i><em>Please wait, retrieving plugin information ...</em></td><tr>");
-    $.getJSON('/plugins/NerdTools/include/PackageQuery.php', {force: force}, function(data) {
+    $.getJSON('/plugins/NerdTools-Dev/include/PackageQuery.php', {force: force}, function(data) {
         $('#tblPackages tbody').empty();
         var Ready;
         var Count = 0;
@@ -128,7 +128,7 @@ function Apply() {
         checkDepends();
         var Arg2 = (typeof $.cookie('nerdtools_packages_uninstall') === 'undefined') ? '' : '&arg2='+$.cookie('nerdtools_packages_uninstall');
         $.post('/update.php', $('#package_form').serializeArray(), function() {
-                openBox('/plugins/NerdTools/scripts/packagemanager&arg1=--download'+ Arg2,
+                openBox('/plugins/NerdTools-Dev/scripts/packagemanager&arg1=--download'+ Arg2,
                             'Package Manager', 600, 900, true);
             }
         );
