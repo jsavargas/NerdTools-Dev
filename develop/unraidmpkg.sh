@@ -3,7 +3,7 @@
 BASEDIR=$PWD
 
 
-cd ../source/NerdTools 
+cd ../source/NerdTools-Dev 
 ./pkg_build.sh $1
 
 
